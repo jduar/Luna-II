@@ -74,13 +74,10 @@
         "Name[uk]": "Луна (II)",
         "Name[x-test]": "xxLuna (II)xx",
         "Name[zh_CN]": "月相",
-        "ServiceTypes": [
-            "Plasma/Applet"
-        ],
         "Version": "2.2.0",
         "Website": "http://userbase.kde.org/Plasma"
     },
-    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-API-Minimum-Version": "6.0",
     "X-Plasma-DefaultSize": "100,100",
-    "X-Plasma-MainScript": "ui/main.qml"
+    "KPackageStructure": "Plasma/Applet"
 }
