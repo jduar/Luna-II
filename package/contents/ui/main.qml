@@ -18,9 +18,9 @@
 
 */
 
-import QtQuick 2.15
-import org.kde.plasma.plasmoid 2.0
-import QtQuick.Layouts 1.15 as QtLayouts
+import QtQuick
+import org.kde.plasma.plasmoid
+import QtQuick.Layouts as QtLayouts
 
 import "../code/phases.js" as Phases
 import "../code/lunacalc.js" as LunaCalc

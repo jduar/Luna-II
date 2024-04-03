@@ -19,10 +19,10 @@
 
 */
 
-import QtQuick 2.7
-import QtQuick.Layouts 1.2 as QtLayouts
-import org.kde.plasma.components 3.0 as PC3
-import org.kde.plasma.plasmoid 2.0
+import QtQuick
+import QtQuick.Layouts as QtLayouts
+import org.kde.plasma.components as PlasmaComponents
+import org.kde.plasma.plasmoid
 
 import "../code/phases.js" as Phases
 import "../code/lunacalc.js" as LunaCalc
@@ -111,56 +111,56 @@ Item {
             columns: 2
             padding: 10
             flow: Grid.LeftToRight
-            PC3.Label {
+            PlasmaComponents.Label {
                 id: lastNewLabel
                 text: i18n("Last new:") + "  "
             }
-            PC3.Label {
+            PlasmaComponents.Label {
                 id: lastNewText
             }
-            PC3.Label {
+            PlasmaComponents.Label {
                 id: firstQuarterLabel
                 text: i18n("First quarter:") + "  "
             }
-            PC3.Label {
+            PlasmaComponents.Label {
                 id: firstQuarterText
             }
-            PC3.Label {
+            PlasmaComponents.Label {
                 id: fullMoonLabel
                 text: i18n("Full moon:") + "  "
             }
-            PC3.Label {
+            PlasmaComponents.Label {
                 id: fullMoonText
             }
-            PC3.Label {
+            PlasmaComponents.Label {
                 id: thirdQuarterLabel
                 text: i18n("Third quarter:") + "  "
             }
-            PC3.Label {
+            PlasmaComponents.Label {
                 id: thirdQuarterText
             }
-            PC3.Label {
+            PlasmaComponents.Label {
                 id: nextNewLabel
                 text: i18n("Next new:") + "  "
             }
-            PC3.Label {
+            PlasmaComponents.Label {
                 id: nextNewText
             }
         }
         Row {
             id: buttonRow
             anchors.horizontalCenter: parent.horizontalCenter
-            PC3.ToolButton {
+            PlasmaComponents.ToolButton {
                 id: previousButton
                 icon.name: "go-previous"
                 onClicked: showPreviousPhases();
             }
-            PC3.ToolButton {
+            PlasmaComponents.ToolButton {
                 id: todayButton
                 icon.name: "go-jump-today"
                 onClicked: showTodayPhases();
             }
-            PC3.ToolButton {
+            PlasmaComponents.ToolButton {
                 id: nextButton
                 icon.name: "go-next"
                 onClicked: showNextPhases();

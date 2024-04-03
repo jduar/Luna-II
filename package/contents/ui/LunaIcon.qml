@@ -18,10 +18,10 @@
 
 */
 
-import QtQuick 2.1
+import QtQuick
 import Qt5Compat.GraphicalEffects as GE
-import org.kde.ksvg 1.0 as KSvg
-import org.kde.plasma.plasmoid 2.0
+import org.kde.ksvg as KSvg
+import org.kde.plasma.plasmoid
 
 import "../code/shadowcalcs.js" as ShadowCalcs
 
