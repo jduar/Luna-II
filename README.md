@@ -14,12 +14,6 @@ returns to the current dates.
 
 This is a port to Plasma 6 of:
 
-* [Luna-II](https://github.com/wwjjbb/Luna-II)
-* Version 2.1.2
-* <https://store.kde.org/p/1165459/>
-
-which itself is a Plasma 5 port of
-
 * Luna QML
 * Version 1.4
 * <https://store.kde.org/p/1002036/>
